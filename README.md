@@ -1,8 +1,7 @@
 ###HP ProBook 6470b EFI Ventura Official Nightly Builds
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+**EFI for MacOS Ventura on HP ProBook 6470b (2012)**🎉
 
-###EFI for MacOS Ventura on HP ProBook 6470b (2012) 🎉
 I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 6470b! Running MacOS Ventura without a hitch, this old machine has been revitalized and is performing exceptionally well. Below are the specs and details of the setup:
 
 
@@ -133,4 +132,4 @@ This project wouldn't have been possible without the incredible work of the Hack
 
 
 ###💖 Donations:
-If you find this project helpful and would like to support its ongoing development, consider making a [donation](http://paypal.me/AlienSK "donation"). Your contributions will help cover the costs of maintaining and improving the EFI configurations, as well as providing support. Every little bit helps and is greatly appreciated.
+If you find this project helpful and would like to support its ongoing development, consider making a [donation](http://paypal.me/AlienSK "donation"). Your contributions will help cover the costs of maintaining and improving the EFI configurations, as well as providing support. Every little bit helps and is greatly appreciated.`
