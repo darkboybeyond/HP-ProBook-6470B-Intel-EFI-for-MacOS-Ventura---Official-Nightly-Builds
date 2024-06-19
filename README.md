@@ -1,11 +1,11 @@
-###HP ProBook 6470b EFI Ventura Official Nightly Builds
+### HP ProBook 6470b EFI Ventura Official Nightly Builds
 
 **EFI for MacOS Ventura on HP ProBook 6470b (2012)**🎉
 
 I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 6470b! Running MacOS Ventura without a hitch, this old machine has been revitalized and is performing exceptionally well. Below are the specs and details of the setup:
 
 
-###🖥️ System Specifications:
+### 🖥️ System Specifications:
 
 
 - 💻 CPU Type: Mobile DualCore Intel Core i5-3320M, 3100 MHz (31 x 100)
@@ -25,7 +25,7 @@ I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 64
 - Standard SATA AHCI Controller
 - JMicron PCIe SD/MMC Host Controller
 
-###⚙️ Performance and Stability:
+### ⚙️ Performance and Stability:
 
 Despite its age, the HP ProBook 6470b runs MacOS Ventura seamlessly. Here are some highlights of the performance:
 
@@ -35,7 +35,7 @@ Despite its age, the HP ProBook 6470b runs MacOS Ventura seamlessly. Here are so
 - Bluetooth & USB: The Broadcom Bluetooth adapter and various USB devices function without issues, ensuring full peripheral compatibility.
 - Webcam: The integrated HP HD Webcam works flawlessly with video conferencing apps.
 
-###🛠️ Installation Process:
+### 🛠️ Installation Process:
 
 The installation was straightforward, thanks to the robust EFI configuration and available guides. Key steps included:
 
@@ -47,9 +47,9 @@ The installation was straightforward, thanks to the robust EFI configuration and
 - 🗂️ EFI Configuration and Support:
 - I am excited to announce that I will be providing nightly builds for the EFI folders, ensuring they are up-to-date and optimized for the best performance. Additionally, I will be offering support to assist with any issues or questions you may have.
 
-###Here's a snapshot of the key components in my EFI folder:
+### Here's a snapshot of the key components in my EFI folder:
 
-###Bootloader: OpenCore (version 1.0.0)
+### Bootloader: OpenCore (version 1.0.0)
 
 Essential Kexts:
 - Lilu.kext
@@ -64,7 +64,7 @@ Essential Kexts:
 - HfsPlus.efi
 Configuration File: A meticulously edited config.plist to match the system specifications and optimize performance.
 
-###✅ What's Working:
+### ✅ What's Working:
 
 - 🛜 Wi-Fi
 - 📶 Bluetooth
@@ -84,7 +84,7 @@ Configuration File: A meticulously edited config.plist to match the system speci
 - 🔋 Battery? (I have no battery to test, but you can expect it should be working properly)
 - 🌙 Hibernation? (Sometimes, please test and report)
 
-###⚠️ Known Issues:
+### ⚠️ Known Issues:
 
 - 📶 Bluetooth: Seems to not be compatible with iPhone devices, but other device types are compatible.
 - 💬 iMessage and FaceTime: Seem to force close themselves. Make sure to add proper SN info to your config.plist and test after reinstall.
@@ -92,7 +92,7 @@ Configuration File: A meticulously edited config.plist to match the system speci
 - 🎛️ Trackpad: The trackpad integrated on the keyboard is not working properly, and I am still figuring out how to get it working again as it was working properly previously.
 - ⚠️ More issues? You tell me...
 
-###🙏 Acknowledgements:
+### 🙏 Acknowledgements:
 
 This project wouldn't have been possible without the incredible work of the Hackintosh community. Special thanks to the developers and contributors of the tools and kexts used in this project:
 
@@ -107,7 +107,7 @@ This project wouldn't have been possible without the incredible work of the Hack
 - Your dedication and hard work have made it possible to bring macOS to non-Apple hardware. Thank you!
 
 
-###Images
+### Images
 
 
 ![](https://i.imgur.com/5ck6xZA.png)
@@ -131,7 +131,7 @@ This project wouldn't have been possible without the incredible work of the Hack
 > Stock Wi-Fi List
 
 
-###💖 Donations:
+### 💖 Donations:
 If you find this project helpful and would like to support its ongoing development, consider making a [donation](http://paypal.me/AlienSK "donation"). Your contributions will help cover the costs of maintaining and improving the EFI configurations, as well as providing support. Every little bit helps and is greatly appreciated.
 
-###END
+### END
