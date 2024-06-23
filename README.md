@@ -1,6 +1,6 @@
 ### HP ProBook 6470b EFI Ventura Official Nightly Builds
 
-**EFI for MacOS Ventura on HP ProBook 6470b (2012)**🎉
+### EFI for MacOS Ventura on HP ProBook 6470b (2012)🎉
 
 I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 6470b! Running MacOS Ventura without a hitch, this old machine has been revitalized and is performing exceptionally well. Below are the specs and details of the setup:
 
