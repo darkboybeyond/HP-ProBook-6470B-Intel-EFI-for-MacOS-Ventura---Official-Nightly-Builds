@@ -33,7 +33,7 @@ Despite its age, the HP ProBook 6470b runs MacOS Ventura seamlessly. Here are so
 - Audio: Both audio adapters work perfectly, ensuring crisp and clear sound whether using the built-in speakers or external devices.
 - Network: Wired and wireless connections are stable and reliable, courtesy of the Intel network adapters.
 - Bluetooth & USB: The Broadcom Bluetooth adapter and various USB devices function without issues, ensuring full peripheral compatibility.
-- Webcam: The integrated HP HD Webcam works flawlessly with video conferencing apps.
+
 
 ### 🛠️ Installation Process:
 
