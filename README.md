@@ -92,8 +92,8 @@ Essential Kexts:
 - 💬 iMessage and FaceTime: Seem to force close themselves. Make sure to add proper SN info to your config.plist and test after reinstall.
 - 🖥️ Graphics: As Apple dropped support, you may get choppy graphics issues and not see properly throughout the PC screen. To avoid this during the installation process, please turn on the laptop with the screen closed and connected to a TV or monitor using the DVI port (which stands as HDMI as well in this machine). To get graphics working properly, you may need to install the OCLP app offered here to provide root patches.
 - 🎛️ Trackpad: The trackpad integrated on the keyboard is not working properly, and I am still figuring out how to get it working again as it was working properly previously.
-💾 JMicron SD Card Reader: Currently not working. I'm working on a fix.
-⚠️ More issues? You tell me...
+- 💾 JMicron SD Card Reader: Currently not working. I'm working on a fix.
+- ⚠️ More issues? You tell me...
 
 ### 🙏 Acknowledgements:
 
