@@ -11,17 +11,21 @@ I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 64
 - 💻 **CPU Type:** Mobile DualCore Intel Core i5-3320M, 3100 MHz (31 x 100)
 - 🔧 **Motherboard Chipset:** Intel Panther Point HM76, Intel Ivy Bridge
 - 🎨 **Video Adapter:** Intel(R) HD Graphics 4000 (2112 MB)
- 🔊 **Audio Adapter:**
+
+🔊 **Audio Adapter:**
 - IDT 92HD81B1X @ Intel Panther Point PCH - High Definition Audio Controller [C1]
 - Intel Panther Point HDMI @ Intel Panther Point PCH - High Definition Audio Controller [C1]
-  🌐 **Network Adapter:**
+
+🌐 **Network Adapter:**
 - Intel(R) 82579V Gigabit Network Connection
 - Intel(R) Centrino(R) Advanced-N 6205
 - 🔥 FireWire Controller: JMicron JMB380 PCI-E 1394a OHCI FireWire Controller and Memory Card Host Controller
-  🔌 **USB Device:**
+
+🔌 **USB Device:**
 - Broadcom 20702 Bluetooth 4.0 Adapter
 - HP HD Webcam [Fixed]
-  💽 **IDE Controller:**
+
+💽 **IDE Controller:**
 - Standard SATA AHCI Controller
 - JMicron PCIe SD/MMC Host Controller
 
