@@ -8,20 +8,20 @@ I am thrilled to share my successful Hackintosh project on my 2012 HP ProBook 64
 ### 🖥️ System Specifications:
 
 
-- 💻 CPU Type: Mobile DualCore Intel Core i5-3320M, 3100 MHz (31 x 100)
-- 🔧 Motherboard Chipset: Intel Panther Point HM76, Intel Ivy Bridge
-- 🎨 Video Adapter: Intel(R) HD Graphics 4000 (2112 MB)
-- 🔊 Audio Adapter:
+- 💻 **CPU Type:** Mobile DualCore Intel Core i5-3320M, 3100 MHz (31 x 100)
+- 🔧 **Motherboard Chipset:** Intel Panther Point HM76, Intel Ivy Bridge
+- 🎨 **Video Adapter:** Intel(R) HD Graphics 4000 (2112 MB)
+ 🔊 **Audio Adapter:**
 - IDT 92HD81B1X @ Intel Panther Point PCH - High Definition Audio Controller [C1]
 - Intel Panther Point HDMI @ Intel Panther Point PCH - High Definition Audio Controller [C1]
-- 🌐 Network Adapter:
+  🌐 **Network Adapter:**
 - Intel(R) 82579V Gigabit Network Connection
 - Intel(R) Centrino(R) Advanced-N 6205
 - 🔥 FireWire Controller: JMicron JMB380 PCI-E 1394a OHCI FireWire Controller and Memory Card Host Controller
-- 🔌 USB Device:
+  🔌 **USB Device:**
 - Broadcom 20702 Bluetooth 4.0 Adapter
 - HP HD Webcam [Fixed]
-- 💽 IDE Controller:
+  💽 **IDE Controller:**
 - Standard SATA AHCI Controller
 - JMicron PCIe SD/MMC Host Controller
 
@@ -39,13 +39,12 @@ Despite its age, the HP ProBook 6470b runs MacOS Ventura seamlessly. Here are so
 
 The installation was straightforward, thanks to the robust EFI configuration and available guides. Key steps included:
 
-- 💾 Creating a Bootable USB Installer: Used a Mac or another Hackintosh to create a bootable USB with MacOS Ventura.
-- 🔧 Configuring the BIOS: Ensured BIOS settings were optimized for macOS compatibility (e.g., disabling Secure Boot, enabling AHCI).
-- 📁 EFI Folder Configuration: Placed the necessary kexts, drivers, and configuration files in the EFI folder.
-- 💻 Installing MacOS: Booted from the USB installer, formatted the drive to APFS, and installed MacOS Ventura.
-- 🛠️ Post-Installation Tweaks: Applied post-installation tweaks to ensure all hardware components were recognized and functional.
-- 🗂️ EFI Configuration and Support:
-- I am excited to announce that I will be providing nightly builds for the EFI folders, ensuring they are up-to-date and optimized for the best performance. Additionally, I will be offering support to assist with any issues or questions you may have.
+- 💾 **Creating a Bootable USB Installer:** Used a Mac or another Hackintosh to create a bootable USB with MacOS Ventura.
+- 🔧 **Configuring the BIOS:** Ensured BIOS settings were optimized for macOS compatibility (e.g., disabling Secure Boot, enabling AHCI).
+- 📁 **EFI Folder Configuration:** Placed the necessary kexts, drivers, and configuration files in the EFI folder.
+- 💻 **Installing MacOS:** Booted from the USB installer, formatted the drive to APFS, and installed MacOS Ventura.
+- 🛠️ **Post-Installation Tweaks:** Applied post-installation tweaks to ensure all hardware components were recognized and functional.
+- 🗂️ **EFI Configuration and Support:** I am excited to announce that I will be providing nightly builds for the EFI folders, ensuring they are up-to-date and optimized for the best performance. Additionally, I will be offering support to assist with any issues or questions you may have.
 
 ### Here's a snapshot of the key components in my EFI folder:
 
@@ -57,12 +56,11 @@ Essential Kexts:
 - AppleALC.kext
 - IntelMausi.kext
 - AirportBrcmFixup.kext
-- USBInjectAll.kext
 - VirtualSMC.kext
 - Drivers:
 - OpenRuntime.efi
 - HfsPlus.efi
-Configuration File: A meticulously edited config.plist to match the system specifications and optimize performance.
+**Configuration File:** A meticulously edited config.plist to match the system specifications and optimize performance.
 
 ### ✅ What's Working:
 
@@ -90,7 +88,8 @@ Configuration File: A meticulously edited config.plist to match the system speci
 - 💬 iMessage and FaceTime: Seem to force close themselves. Make sure to add proper SN info to your config.plist and test after reinstall.
 - 🖥️ Graphics: As Apple dropped support, you may get choppy graphics issues and not see properly throughout the PC screen. To avoid this during the installation process, please turn on the laptop with the screen closed and connected to a TV or monitor using the DVI port (which stands as HDMI as well in this machine). To get graphics working properly, you may need to install the OCLP app offered here to provide root patches.
 - 🎛️ Trackpad: The trackpad integrated on the keyboard is not working properly, and I am still figuring out how to get it working again as it was working properly previously.
-- ⚠️ More issues? You tell me...
+💾 JMicron SD Card Reader: Currently not working. I'm working on a fix.
+⚠️ More issues? You tell me...
 
 ### 🙏 Acknowledgements:
 
